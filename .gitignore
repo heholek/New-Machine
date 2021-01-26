@@ -115,3 +115,5 @@ packer_cache
 .DS_Store
 
 output
+Windows-2019/j.p7b
+Windows-2019/WindowsAdminCenter2009.msi
