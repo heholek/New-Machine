@@ -7,7 +7,7 @@ choco feature enable --name=allowGlobalConfirmation
 
 ## System Configuration
 
-# Set-ExplorerOptions -showFileExtensions
+Set-ExplorerOptions -showFileExtensions
 
 Write-Output "Enabling Remote Desktop"
 
@@ -38,11 +38,11 @@ choco install Firefox
 ## Common System Tools
 
 choco install 7zip.install 
-choco install adobereader
+#choco install adobereader
 
-choco install greenshot
+#choco install greenshot
 
-choco install google-backup-and-sync
+#choco install google-backup-and-sync
 
 ## These are more common bare-metal / desktop usage installations
 

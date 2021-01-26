@@ -24,7 +24,7 @@ Depending on OS, follow instructions at vagrantup.com for installing + VirtualBo
 Windows via Chocolatey: 
 
 choco install virtualbox
-
+Win10_20H2_v2_EnglishInternational_x64
 choco install vagrant
 
 vagrant box add {url} --name {name}
