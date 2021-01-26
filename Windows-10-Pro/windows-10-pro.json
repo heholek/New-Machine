@@ -22,13 +22,6 @@
       "winrm_username": "{{user `username`}}"
     }
   ],
-  "post-processors": [
-    {
-      "output": "{{.BuildName}}.box",
-      "type": "vagrant",
-      "vagrantfile_template": "{{template_dir}}/../Vagrantfile.template"
-    }
-  ],
   "provisioners": [
     {
       "scripts": [
